@@ -21,13 +21,28 @@ This Django project implements an auction website where users can list items for
 
 ## Installation
 
-- Install python 3.x
-- Intstall required packages
-
-        pip3 install -r requirements.txt
-
+### Clone repository
+```bash
+git clone https://github.com/leonti98/Bidly
+```
+### Change directory
+```bash
+cd Bidly
+```
+### Intstall required packages
+```bash
+pip3 install -r requirements.txt
+```
+### Create database
+```bash
+python3 manage.py make migrations
+```
+```bash
+python3 manage.py migrate
+```
 ### Run server
-
-    python3 manage.py runserver
-
-- Open your web browser and go to http://127.0.0.1:8000/
+```bash
+python3 manage.py runserver
+```
+### Access the website
+Open your web browser and go to http://127.0.0.1:8000/
