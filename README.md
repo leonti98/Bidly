@@ -1,16 +1,23 @@
 # Django Auction Project
 
-This Django project implements an auction website where users can list items for bidding, place bids, and interact with other users through comments and wishlists.
+
+This Django project is an auction platform that allows users to list items for 
+bidding, place and manage bids, engage with other users through comments, and 
+create personalized wishlists.
+
+## Home page
+![home](./screenshots/Screenshot%202024-12-05%20at%2012-27-32%20Auctions.png)
+**view more screenshots at the end of the README**
 
 ## Features
 
-- **User Authentication**: Users can register, log in, and log out.
-- **Lot Management**: Users can create, view, and close lots for bidding.
-- **Bidding System**: Users can place bids on open lots, with the highest bid and bidder dynamically updated.
-- **Category Management**: Lots are categorized under main and sub-categories.
-- **Comments**: Users can leave comments on lots.
-- **Wishlist**: Users can bookmark lots to their wishlist.
-- **Pagination**: Paginated listing of lots across different categories.
+- **User Authentication**: Users can register, log in, and log out to access their accounts.
+- **Auction Lot Management**: Users can create new auction lots, view existing ones, and close lots when bidding concludes.
+- **Dynamic Bidding System**: Users can place bids on active lots, with the highest bid price automatically updating every 10 seconds.
+- **Category Organization**: Auction lots are organized into main and subcategories for easier browsing.
+- **Interactive Comments**: Users can share their thoughts by leaving comments on auction lots.
+- **Wishlist Feature**: Users can save their favorite lots by adding them to wishlist.
+- **Seamless Pagination**: Lots are displayed with paginated navigation, ensuring an organized and user-friendly browsing experience across categories.
 
 ## Technologies Used
 
@@ -46,3 +53,17 @@ python3 manage.py runserver
 ```
 ### Access the website
 Open your web browser and go to http://127.0.0.1:8000/
+
+## Screenshots
+
+### Lot detail view with comments and bid form.
+![Lot detail](./screenshots/Screenshot%202024-12-05%20at%2012-28-53%20Auctions.png)
+
+### Login required to bid on lots and leave comments.
+![Login requirement](./screenshots/Screenshot%202024-12-05%20at%2012-27-54%20Auctions.png)
+
+### Sub category view with paginated lots.
+![sub category](./screenshots/Screenshot%202024-12-05%20at%2012-28-04%20Auctions.png)
+
+### Main categories view.
+![Main Categories](./screenshots/Screenshot%202024-12-05%20at%2012-31-00%20Auctions.png)
