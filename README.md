@@ -35,7 +35,7 @@ pip3 install -r requirements.txt
 ```
 ### Create database
 ```bash
-python3 manage.py make migrations
+python3 manage.py make migrations auctions
 ```
 ```bash
 python3 manage.py migrate
